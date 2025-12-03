@@ -1,34 +1,37 @@
-## Pull Request Template
+# Pull Request Template
 
-### Overview
+## 🚀 Overview
 
-Provide a brief summary of the changes proposed in this pull request.
+Please provide a concise summary of your changes. What problem does this PR solve?
 
-### Related Issues
+## 📝 Description
 
-*   [Link to related issue(s), if applicable]
+*   **What:** Briefly describe the main goal and scope of this pull request.
+*   **Why:** Explain the motivation behind these changes. How does it align with the project's goals (e.g., improving cost optimization, expanding the list, fixing issues)?
+*   **How:** Detail the technical approach taken. What files were modified and why? (e.g., Added new service entry, updated categorization, fixed a broken link).
 
-### Changes
+## 💡 Motivation
 
-*   [List of changes made]
+This pull request aims to [briefly state the core motivation, e.g., enhance the accuracy of the free-tier SaaS listings, add new IaaS providers, improve the overall structure of the README].
 
-### Testing
+## 🧪 Testing
 
-*   [Describe the testing performed to ensure the changes are correct and do not introduce regressions. Include steps to reproduce the tests.]
+*   **Manual Verification:** [Describe any manual steps taken to verify the changes. E.g., Checked the updated entry in a browser, validated link integrity, confirmed README rendering.]
+*   **Automated Tests:** [If applicable, mention if automated tests were run and passed. For an "Awesome List" primarily composed of Markdown/HTML, this might be less relevant unless specific scripts are involved.]
 
-### Documentation
+## ✅ Checklist
 
-*   [Indicate if any documentation changes are needed and where. If not, state "No documentation changes are needed."]
+- [ ] I have read and understood the **Contributing Guidelines**.
+- [ ] My changes adhere to the **Apex Technical Authority** standards.
+- [ ] The code (if any) is linted and formatted correctly.
+- [ ] My contribution expands or refines the existing list of free-tier cloud services.
+- [ ] All new entries have been verified for accuracy (e.g., free-tier details, active links).
+- [ ] The README.md (if modified) reflects the changes accurately.
 
-### Checklist
+## 🔗 Related Issues
 
-*   [ ] I have read the [CONTRIBUTING.md](https://github.com/chirag127/CloudCostControl-Global-FreeTier-SaaS-PaaS-IaaS-Awesome-List/blob/main/.github/CONTRIBUTING.md) document.
-*   [ ] I have updated the documentation accordingly.
-*   [ ] I have added tests to cover my changes.
-*   [ ] All tests pass.
-*   [ ] My code follows the project's style guidelines.
-*   [ ] I have performed a self-review of my own code.
-*   [ ] I have commented my code, particularly in hard-to-understand areas.
-*   [ ] I have made corresponding changes to the documentation.
-*   [ ] My changes generate no new warnings.
-*   [ ] Any dependent changes have been merged and published in downstream modules.
+Closes # [Issue Number]
+
+--- 
+
+*This template is managed by the Apex Technical Authority. Ensure all changes align with project standards and AI Agent Directives.*
