@@ -1,37 +1,31 @@
-# Operating System Files
+# Dependency directories
+/node_modules
+/dist
+/build
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# IDE and Editor Specific Files
-.idea/
+# Editor specific
 .vscode/
-*.sublime-project
-*.sublime-workspace
-*.swp
-*.swo
+.idea/
 
-# Build Artifacts & Temporary Files
-build/
-dist/
-public/
+# Logs and temporary files
 *.log
 *.tmp
-*~
+*.swp
 
-# Dependency Directories (Future-proofing for build/linter tools)
-node_modules/
-venv/
-__pycache__/
+# Artifacts for HTML/Static Sites (Since the original repo was HTML/Static)
+/coverage
 
-# Package Manager Lock Files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Build artifacts (If any compilation steps were added later, though this is static)
+/out
 
-# Sensitive Data / Configuration (Example placeholders)
+# Configuration and secrets (Safety first)
 .env
-*.env.*
+.env.*
+!*.example.env
 
-# Coverage reports
-.nyc_output/
-coverage/
+# CI/CD artifacts (GitHub Actions temporary storage)
+.github/workflows/*.lock
